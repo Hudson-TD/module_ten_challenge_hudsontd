@@ -1,7 +1,6 @@
 {
   "name": "module_ten_challenge_hudsontd",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -13,7 +12,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.1.1",
+    "inquirer": "^8.2.4",
     "jest": "^29.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hudson-TD/module_ten_challenge_hudsontd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hudson-TD/module_ten_challenge_hudsontd/issues"
+  },
+  "homepage": "https://github.com/Hudson-TD/module_ten_challenge_hudsontd#readme",
+  "description": ""
 }
