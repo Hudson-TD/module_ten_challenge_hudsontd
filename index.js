@@ -197,4 +197,14 @@ const writeFile = data => {
     })
 }; 
 
-///// code need to invoke HTMl helper function and writeFile ^^
+addManager()
+  .then(addEmployee)
+  .then(teamArray => {
+    return createHTML(teamArray);
+  })
+  .then(pageHTML => {
+    return writeFile(pageHTML);
+  })
+  .catch(err => {
+ console.log(err);
+  });
