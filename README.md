@@ -14,7 +14,7 @@
 ## Usage
   Entering 'Node index.js' into the terminal will prompt the user to create a team starting with the 'Manager'. Afterwards the user can proceed with creating additional employee cards within the html by selecting the 'Engineer' and 'Intern' options. The answers to the prompts for each employee type will dynamically create employee cards in the HTML along with some values reflecting as hyperlinks such as github for the 'Engineer'. The user can create as many 'Engineer' or 'Intern' cards as needed. The user will be prompted to continue adding additional team members after each entry which can be stopped by pressing 'N' when prompted.
 
-  Click this link to view a walkthrough video: (Need to film video)
+  Click this link to view a walkthrough video: https://drive.google.com/file/d/19hrjlpdQ_R21olQiuTYr5b0IP4sXHNwO/view
 
 ## Contributing
 Thank you for your interest in contributing, however I am not looking for additional contributions at this time.
@@ -26,4 +26,4 @@ Find me on GitHub: [Hudson-td](https://github.com/Hudson-td)
 
 ## Screenshot
 
-[Screenshot needed)
+[![module-ten-screencapture.png](https://i.postimg.cc/8z5LXJSK/module-ten-screencapture.png)](https://postimg.cc/SJBXJKjC)
