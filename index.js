@@ -1,15 +1,15 @@
+// List of imports
 const createHTML = require('./src/createHTML');
-
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern'); 
-
 const fs = require('fs');
 const inquirer = require('inquirer'); 
 
+//Array storing employee objects
 const teamArray = []; 
 
-
+//Manager creation prompt & push to teamArray
 const addManager = () => {
     return inquirer.prompt ([
         {
@@ -74,6 +74,7 @@ const addManager = () => {
     })
 };
 
+//Engineer/Intern creation prompts & push to teamArray
 const addEmployee = () => {
     console.log(`
         Add additional team members
@@ -197,6 +198,7 @@ const writeFile = data => {
     })
 }; 
 
+//Evoking manager and employee functions to carry out team creation flow
 addManager()
   .then(addEmployee)
   .then(teamArray => {

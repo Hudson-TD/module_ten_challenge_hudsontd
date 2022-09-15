@@ -1,6 +1,7 @@
+//Employee class object creation test
 const Employee = require('../lib/Employee');
 
-test('creating an employee object', () => {
+test('creating an Employee object', () => {
     const employee = new Employee('Tyler', 101, 'tylerhudson96@gmail.com');
 
     expect(employee.name).toEqual(expect.any(String));
@@ -26,7 +27,7 @@ test('get email', () => {
     expect(employee.getEmail()).toEqual(expect.stringContaining(employee.email.toString()));
 });
 
-test('gets role', () => {
+test('get role', () => {
     const employee = new Employee('Tyler', 101, 'tylerhudson96@gmail.com');
 
     expect(employee.getRole()).toEqual("Employee");

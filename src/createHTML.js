@@ -1,3 +1,4 @@
+// Manager card creation with collected data
 const createManager = function (manager) {
     return `
     <div class="col-4 mt-4">
@@ -16,6 +17,7 @@ const createManager = function (manager) {
     `;
 }
 
+// Engineer card creation with collected data
 const createEngineer = function (engineer) {
     return `
     <div class="col-4 mt-4">
@@ -33,7 +35,8 @@ const createEngineer = function (engineer) {
     </div>
     `
 }
- 
+
+// Intern card creation with collected data
 const createIntern = function (intern) {
     return `
     <div class="col-4 mt-4">
@@ -52,8 +55,9 @@ const createIntern = function (intern) {
     `
 };
 
+// HTML file creation
 createHTML = (data) => {
-
+    // Array storing team entries that are created based on the defined role
     pageArray = []; 
 
     for (let i = 0; i < data.length; i++) {
@@ -86,6 +90,7 @@ createHTML = (data) => {
 
 }
 
+//HTML structure and basic formatting with Bootstrap + Google font
 const generateTeamPage = function (employeeCards) {   
   return`
   <!DOCTYPE html>

@@ -7,6 +7,7 @@
     --secondary: white;
 }
 
+/* Google Font */
 body {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -30,6 +31,5 @@ body {
 .container {
     margin: 100px auto;
     justify-content: space-evenly;
-    display: flex;
-    
+    display: flex;    
 }
